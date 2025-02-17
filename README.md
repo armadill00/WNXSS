@@ -2,7 +2,7 @@
 
 A powerful Python-based XSS vulnerability scanner that tests web applications for Reflected XSS, DOM-Based XSS, and WAF bypass techniques.
 
-⚡ Features
+<h2>⚡ Features</h2>
 
 🚀 Automated Form Scanning - Detects and tests input fields for XSS.
 
@@ -14,7 +14,7 @@ A powerful Python-based XSS vulnerability scanner that tests web applications fo
 
 🛠 Header-Based XSS Testing - Checks if input is reflected in HTTP headers.
 
-📌 Installation
+<h2>📌 Installation</h2>
 
 1️⃣ Install Dependencies
 
@@ -30,7 +30,7 @@ Download matching chromedriver from: ChromeDriver Download
 
 Move chromedriver to a known location (e.g., /usr/local/bin/ or C:\chromedriver.exe)
 
-🚀 Usage
+<h2>🚀 Usage</h2>
 
 Run the script and provide a target URL:
 
@@ -40,36 +40,13 @@ Enter the website URL when prompted:
 
 Enter the target URL to scan: https://example.com
 
-💡 Example Output
-
-[+] Found 3 forms on https://example.com
-[!] XSS Vulnerability detected in https://example.com/login with payload: <script>alert('XSS')</script>
-[-] No XSS Vulnerability found in https://example.com/search with payload: <svg/onload=alert('XSS')>
-[!] DOM-Based XSS detected with payload: <script>alert('XSS')</script>
-
-🛡️ Supported XSS Techniques
+<h2>🛡️ Supported XSS Techniques</h2>
 
 ✅ Reflected XSS (Injects payload into form fields)
 ✅ DOM-Based XSS (Uses Selenium to detect JavaScript-executed XSS)
 ✅ Stored XSS (Checks if input remains stored in page source)
 ✅ WAF Bypass Techniques (Encodes payloads in Hex, URL, and Polyglot)
 ✅ Header Injection XSS (Tests reflection in HTTP headers)
-
-🏗️ Contributing
-
-Fork the repo and clone it.
-
-Create a feature branch (git checkout -b feature-new)
-
-Commit your changes (git commit -m 'Added new XSS payload')
-
-Push to GitHub (git push origin feature-new)
-
-Submit a Pull Request 🚀
-
-📜 License
-
-This project is licensed under the MIT License.
 
 ⚠️ Disclaimer
 
