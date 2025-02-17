@@ -1,4 +1,4 @@
-🛡️ Advanced XSS Scanner
+<h1>🛡️ Advanced XSS Scanner</h1>
 
 A powerful Python-based XSS vulnerability scanner that tests web applications for Reflected XSS, DOM-Based XSS, and WAF bypass techniques.
 
